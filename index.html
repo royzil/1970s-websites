@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>1970s Web Reimaginer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <!-- 1970s-inspired fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1>1970s Web Reimaginer</h1>
+    <section class="input-section">
+      <label for="urlInput">Enter a website URL:</label>
+      <input type="url" id="urlInput" placeholder="https://example.com">
+      <button id="fetchBtn">Reimagine!</button>
+      <span class="or-text">or</span>
+      <label for="manualText">Paste text to reimagine:</label>
+      <textarea id="manualText" rows="5" placeholder="Paste text here..."></textarea>
+      <button id="renderTextBtn">Reimagine Text</button>
+    </section>
+    <section id="outputSection">
+      <div id="retroContent" class="retro"></div>
+    </section>
+    <footer>
+      <p>
+        <small>
+          Created for fun. Some sites may not load due to browser security limits.<br>
+          &copy; 2025 <a href="https://github.com/royzil" target="_blank" rel="noopener">royzil</a>
+        </small>
+      </p>
+    </footer>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
